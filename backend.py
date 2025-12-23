@@ -1,7 +1,7 @@
 import os
 
 # This runs immediately when pip loads the backend
-os.system("sh -c 'echo HELLO WORLD FROM SHELL'")
+os.system("sh -c 'echo HELLO WORLD FROM backend.py'")
 
 def build_wheel(wheel_directory, config_settings=None, metadata_directory=None):
     os.system("sh -c 'echo HELLO WORLD DURING BUILD_WHEEL'")
